@@ -21,6 +21,7 @@ cd <project-folder>
 ```
 
 2. **Environment Setup:**
+   
 Copy the `.env.example` file and generate the application key:
  
 ```bash
@@ -37,14 +38,17 @@ DB_USERNAME=your_username
 DB_PASSWORD=your_password
 ```
 
-4. **Seed Relevant Dates:** 
+4. **Seed Relevant Dates:**
+   
 Adjust or add holidays and company days in the seeders located in ./database/seeders.
 
 5. **Migrate and Seed the Database:**
-`php artisan migrate:refresh --seed`
 
-6. **Start the Development Server:**   
-`php artisan serve`
+  `php artisan migrate:refresh --seed`
+
+7. **Start the Development Server:**
+   
+  `php artisan serve`
 
 
 # Features
